@@ -8,22 +8,32 @@ body{
     font-weight:400;
     line-height: 60px;
 }
-
 .padding_up{
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .padding_up1{
   padding-top:120px;
 }
-.padding_up2{
-  padding-top: 100px;
-  padding-left: 100px;
+.margin_up{
+  margin-top: -100px;
 }
-margin_left{
+.margin_up1{
+  margin-top: 80px;
+}
+.margin_up2{
+  margin-top: -68px;
+}
+margin_up3{
+  margin-top: -200px;
+}
+.margin_left{
  margin-left: 10px;
 }
 
+.margin_left1{
+  margin-left: 300px;
+}
 @media screen and (max-width:601px){
   .font{
     font-size:40px;
@@ -32,13 +42,16 @@ margin_left{
   }
 }
 .cont{
-  padding: 30px;
+  padding: 70px;
+}
+.hand{
+  height:470px;
 }
 .red{
   background-color: #EB0000; 
 }
 .gray{
-  background-color:#D3D3D3;
+  background-color:#F0F0F0;
 }
 .redtext{
   color:#EB0000;
@@ -63,8 +76,7 @@ margin_left{
 }
 .one{
   font-style: "Tondo", "Helvetica Neue", Helvetica, Arial, sans-serif;;
-  font-size:15px;
-  font-weight:lighter;
+  font-size:14px;
   color:white;
   padding: 20px;
 } 
@@ -150,12 +162,9 @@ position: relative;
 left: 0;
 bottom: 0;
 width: 100%;
-background-color:black;
-color: white;
 }
 .text{
   font-size: 12px;
-  color:#D0D0D0;
 }
 
 .animate-first{
